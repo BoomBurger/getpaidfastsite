@@ -16,7 +16,7 @@ export default function HowItWorksSection() {
       rootMargin: '-20% 0px -20% 0px',
     };
 
-    const createObserver = (ref: React.RefObject<HTMLDivElement>, stepIndex: number) => {
+    const createObserver = (ref: React.RefObject<HTMLDivElement | null>, stepIndex: number) => {
       const observer = new IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting) {
