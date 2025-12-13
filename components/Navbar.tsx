@@ -1,0 +1,36 @@
+"use client";
+
+import Link from "next/link";
+
+export default function Navbar() {
+  return (
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-background/30 border-b border-text/10 rounded-b-2xl px-6 py-4">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <Link href="/" className="flex items-center">
+            <span className="text-xl font-bold">
+              getpaid<span className="text-primary">fast</span>.ai
+            </span>
+          </Link>
+
+          {/* Right Side Actions */}
+          <div className="flex items-center gap-4">
+            <a
+              href="https://dashboard.getpaidfast.ai/login"
+              className="text-text-muted hover:text-secondary transition-colors font-medium"
+            >
+              Login
+            </a>
+            <a
+              href="https://dashboard.getpaidfast.ai/register"
+              className="px-6 py-2.5 bg-text text-background rounded-full font-medium hover:bg-secondary transition-colors"
+            >
+              Use For Free
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+}
