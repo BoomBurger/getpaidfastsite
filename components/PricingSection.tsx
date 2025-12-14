@@ -53,7 +53,7 @@ export default function PricingSection() {
               <h3 className="text-2xl font-bold text-white mb-2">Free</h3>
               <div className="flex items-baseline gap-2">
                 <span className="text-5xl font-bold text-white">$0</span>
-                <span className="text-text-muted">per month</span>
+                <span className="text-text-muted">USD per month</span>
               </div>
             </div>
 
@@ -110,7 +110,7 @@ export default function PricingSection() {
               <h3 className="text-2xl font-bold text-white mb-2">Pro</h3>
               <div className="flex items-baseline gap-2">
                 <span className="text-5xl font-bold text-primary">$70</span>
-                <span className="text-text-muted">per month</span>
+                <span className="text-text-muted">USD per month</span>
               </div>
             </div>
 
@@ -160,7 +160,7 @@ export default function PricingSection() {
               <h3 className="text-2xl font-bold text-white mb-2">Enterprise</h3>
               <div className="flex items-baseline gap-2">
                 <span className="text-5xl font-bold text-secondary">$215</span>
-                <span className="text-text-muted">per month</span>
+                <span className="text-text-muted">USD per month</span>
               </div>
             </div>
 
