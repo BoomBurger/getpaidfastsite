@@ -24,15 +24,9 @@ export default function Home() {
                 {/* Main Heading */}
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] animate-fade-in-up">
                   Never{" "}
-                  <span className="text-secondary relative">
-                    <span className="absolute inset-0 blur-2xl opacity-40 text-secondary">Chase</span>
-                    <span className="relative">Chase</span>
-                  </span>{" "}
+                  <span className="text-secondary">Chase</span>{" "}
                   Late{" "}
-                  <span className="text-primary relative">
-                    <span className="absolute inset-0 blur-2xl opacity-40 text-primary">Payments</span>
-                    <span className="relative">Payments</span>
-                  </span>{" "}
+                  <span className="text-primary">Payments</span>{" "}
                   Again
                 </h1>
 
@@ -68,72 +62,6 @@ export default function Home() {
                     <DashboardMockup />
                   </div>
                   <AudioPlayerOverlay />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Divider Line */}
-        <div className="max-w-6xl mx-auto px-6 mb-8">
-          <div className="border-t border-text/10"></div>
-        </div>
-
-        {/* Integrations Section */}
-        <section className="pb-20 px-6 overflow-hidden">
-          <div className="max-w-5xl mx-auto text-center mb-12">
-            <h2 className="text-sm font-semibold tracking-wider text-primary uppercase">
-              Integrates Seamlessly With
-            </h2>
-          </div>
-          <div className="relative">
-            <div className="flex justify-center">
-              {/* Logos */}
-              <div className="flex items-center gap-16 px-8">
-                {/* Xero */}
-                <div className="flex items-center justify-center h-12 w-24 opacity-50 hover:opacity-100 transition-opacity">
-                  <span className="text-2xl font-bold text-text">Xero</span>
-                </div>
-
-                {/* Stripe */}
-                <div className="flex items-center justify-center h-12 w-28 opacity-50 hover:opacity-100 transition-opacity">
-                  <span className="text-2xl font-bold text-text">Stripe</span>
-                </div>
-
-                {/* Google */}
-                <div className="flex items-center justify-center h-12 w-28 opacity-50 hover:opacity-100 transition-opacity">
-                  <span className="text-2xl font-medium text-text">Google</span>
-                </div>
-
-                {/* Supabase */}
-                <div className="flex items-center justify-center h-12 w-32 opacity-50 hover:opacity-100 transition-opacity">
-                  <svg className="h-10" viewBox="0 0 109 113" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M63.7076 110.284C60.8481 113.885 55.0502 111.912 54.9813 107.314L53.9738 40.0627L99.1935 40.0627C107.384 40.0627 111.952 49.5228 106.859 55.9374L63.7076 110.284Z" fill="url(#paint0_linear)" />
-                    <path d="M63.7076 110.284C60.8481 113.885 55.0502 111.912 54.9813 107.314L53.9738 40.0627L99.1935 40.0627C107.384 40.0627 111.952 49.5228 106.859 55.9374L63.7076 110.284Z" fill="url(#paint1_linear)" fillOpacity="0.2" />
-                    <path d="M45.317 2.07103C48.1765 -1.53037 53.9745 0.442937 54.0434 5.041L54.4849 72.2922H9.83113C1.64038 72.2922 -2.92775 62.8321 2.1655 56.4175L45.317 2.07103Z" fill="#3ECF8E" />
-                    <defs>
-                      <linearGradient id="paint0_linear" x1="53.9738" y1="54.974" x2="94.1635" y2="71.8295" gradientUnits="userSpaceOnUse">
-                        <stop stopColor="#249361" />
-                        <stop offset="1" stopColor="#3ECF8E" />
-                      </linearGradient>
-                      <linearGradient id="paint1_linear" x1="36.1558" y1="30.578" x2="54.4844" y2="65.0806" gradientUnits="userSpaceOnUse">
-                        <stop />
-                        <stop offset="1" stopOpacity="0" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </div>
-
-                {/* Vercel */}
-                <div className="flex items-center justify-center h-12 w-24 opacity-50 hover:opacity-100 transition-opacity">
-                  <svg className="h-6" viewBox="0 0 76 65" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="currentColor"/>
-                  </svg>
-                </div>
-
-                {/* Railway */}
-                <div className="flex items-center justify-center h-12 w-28 opacity-50 hover:opacity-100 transition-opacity">
-                  <span className="text-2xl font-bold text-text">Railway</span>
                 </div>
               </div>
             </div>

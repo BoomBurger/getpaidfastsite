@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-background/30 border-b border-text/10 rounded-b-2xl px-6 py-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-background/80 rounded-b-2xl px-6 py-4">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -24,7 +24,7 @@ export default function Navbar() {
             </a>
             <a
               href="https://dashboard.getpaidfast.ai/register"
-              className="px-6 py-2.5 bg-text text-background rounded-full font-medium hover:bg-secondary transition-colors"
+              className="px-6 py-2.5 bg-text text-background rounded-lg font-medium hover:bg-secondary transition-colors"
             >
               Use For Free
             </a>

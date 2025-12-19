@@ -123,14 +123,14 @@ export default function FAQSection() {
               Have questions? Get in touch with our team
             </p>
 
-            <div className="bg-[var(--bg-light)] border border-secondary/20 rounded-2xl p-8 relative overflow-hidden"
+            <div className="bg-[var(--bg-light)] border border-secondary/20 rounded-2xl p-8 pb-[4.5rem] relative overflow-hidden"
               style={{
                 backgroundImage: `radial-gradient(circle at 1px 1px, rgba(239, 68, 68, 0.15) 1px, transparent 0)`,
                 backgroundSize: '24px 24px'
               }}
             >
               {/* Email */}
-              <div className="mb-6">
+              <div className="mb-8">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-10 h-10 rounded-full bg-secondary/20 flex items-center justify-center">
                     <svg className="w-5 h-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -150,7 +150,7 @@ export default function FAQSection() {
               </div>
 
               {/* Phone */}
-              <div className="mb-6">
+              <div className="mb-8">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-10 h-10 rounded-full bg-secondary/20 flex items-center justify-center">
                     <svg className="w-5 h-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -170,7 +170,7 @@ export default function FAQSection() {
               </div>
 
               {/* Hours */}
-              <div className="mb-8">
+              <div className="mb-10">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-10 h-10 rounded-full bg-secondary/20 flex items-center justify-center">
                     <svg className="w-5 h-5 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
