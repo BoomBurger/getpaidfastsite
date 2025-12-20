@@ -43,7 +43,7 @@ export default function HowItWorksSection() {
   }, []);
 
   return (
-    <section className="pt-32 pb-20 px-6">
+    <section id="how-it-works" className="pt-32 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-white mb-4 text-center">

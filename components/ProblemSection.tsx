@@ -44,11 +44,10 @@ export default function ProblemSection() {
         <div className="grid lg:grid-cols-2 gap-6 items-stretch relative">
           {/* Left Card - getpaidfast.ai */}
           <div
-            className={`bg-gradient-to-br from-[#1a1a2e] to-[#16213e] border-2 border-primary/40 rounded-2xl p-10 shadow-2xl transition-all duration-700 ${
+            className={`card-hover-lift bg-gradient-to-br from-[#1a1a2e] to-[#16213e] border-2 border-primary/40 rounded-2xl p-10 shadow-2xl transition-all duration-700 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
             style={{
-              transitionDelay: '300ms',
               boxShadow: '0 0 40px rgba(88, 166, 255, 0.15), 0 0 80px rgba(88, 166, 255, 0.08)'
             }}
           >

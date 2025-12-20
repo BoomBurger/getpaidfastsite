@@ -50,8 +50,8 @@ export default function FAQSection() {
       answer: "Professional and conversational. Clients know it's AI - we're completely transparent - but they're impressed by how natural it sounds."
     },
     {
-      question: "Will this damage my client relationships?",
-      answer: "No. The AI is professional and respectful - it introduces itself as an automated assistant and keeps conversations focused on payment arrangements. Many clients actually prefer the consistency of AI over repeated personal calls, and you're no longer in the uncomfortable position of being the 'bad guy' chasing them down."
+      question: "Will my clients hate me for using a robot?",
+      answer: "Quite the opposite. Your clients will appreciate the consistency and professionalism. Plus, the AI never has a bad day, forgets to follow up, or gets awkward about money. It's like having the world's most polite, patient collections specialist who never needs coffee breaks."
     }
   ];
 

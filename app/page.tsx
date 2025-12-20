@@ -16,8 +16,14 @@ export default function Home() {
 
       <main className="relative">
         {/* Hero Section */}
-        <section className="min-h-screen flex items-center px-6 pt-24 pb-20">
-          <div className="max-w-7xl mx-auto w-full">
+        <section className="min-h-screen flex items-center px-6 pt-24 pb-20 relative overflow-hidden">
+          {/* Background gradient layer */}
+          <div className="absolute inset-0 hero-gradient pointer-events-none" aria-hidden="true" style={{
+            maskImage: 'linear-gradient(to bottom, black 0%, black 70%, transparent 100%)',
+            WebkitMaskImage: 'linear-gradient(to bottom, black 0%, black 70%, transparent 100%)'
+          }}></div>
+
+          <div className="max-w-7xl mx-auto w-full relative z-10">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               {/* Left Column - Content */}
               <div className="text-center lg:text-left space-y-6">
@@ -102,11 +108,6 @@ export default function Home() {
 
         {/* FAQ Section */}
         <FAQSection />
-
-        {/* Divider Line */}
-        <div className="max-w-6xl mx-auto px-6 mb-8">
-          <div className="border-t border-text/10"></div>
-        </div>
 
         {/* Final CTA Section */}
         <CTASection />

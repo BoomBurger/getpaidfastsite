@@ -44,10 +44,10 @@ export default function PricingSection() {
         <div className="grid lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {/* Free Plan */}
           <div
-            className={`bg-[var(--bg-light)] border border-text/10 rounded-2xl p-8 transition-all duration-700 ${
+            className={`pricing-card-hover bg-[var(--bg-light)] border border-text/10 rounded-2xl p-8 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
-            style={{ transitionDelay: '300ms' }}
+            style={{ transition: 'opacity 0.3s ease, transform 0.3s ease' }}
           >
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-white mb-2">Free</h3>
@@ -94,10 +94,10 @@ export default function PricingSection() {
 
           {/* Pro Plan (Most Popular) */}
           <div
-            className={`bg-[var(--bg-light)] border-2 border-primary rounded-2xl p-8 relative transition-all duration-700 ${
+            className={`pricing-card-hover pricing-pro bg-[var(--bg-light)] border-2 border-primary rounded-2xl p-8 relative ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
-            style={{ transitionDelay: '200ms' }}
+            style={{ transition: 'opacity 0.3s ease, transform 0.3s ease' }}
           >
             {/* Most Popular Badge */}
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
@@ -151,10 +151,10 @@ export default function PricingSection() {
 
           {/* Enterprise Plan */}
           <div
-            className={`bg-[var(--bg-light)] border border-text/10 rounded-2xl p-8 transition-all duration-700 ${
+            className={`pricing-card-hover pricing-enterprise bg-[var(--bg-light)] border border-text/10 rounded-2xl p-8 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
-            style={{ transitionDelay: '300ms' }}
+            style={{ transition: 'opacity 0.3s ease, transform 0.3s ease' }}
           >
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-white mb-2">Enterprise</h3>

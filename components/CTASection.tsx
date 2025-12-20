@@ -28,8 +28,13 @@ export default function CTASection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-32 px-6">
-      <div className="max-w-4xl mx-auto text-center">
+    <section ref={sectionRef} className="py-32 px-6 relative overflow-hidden">
+      <div className="absolute inset-0 cta-texture-grid" aria-hidden="true" style={{
+        maskImage: 'linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.5) 100%)',
+        WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.1) 100%)'
+      }}></div>
+
+      <div className="max-w-4xl mx-auto text-center relative z-10">
         <div
           className={`transition-all duration-700 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
